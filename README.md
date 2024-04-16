@@ -21,4 +21,6 @@ How to create a remote codespace for running ibex?
 -   **output.csv**: list of all functions with no. of times they are called, and time taken and amount of cycles: obtained by parsing trace_core_lof in ibex folder with reference from function_table.csv
 
 ---
+### pls make sure to stop codespace after use as there are only limites hrs codespace can run for free!!
+
 
