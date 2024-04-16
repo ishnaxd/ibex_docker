@@ -1,4 +1,4 @@
-How to create a remote codespace for developing ibex?
+How to create a remote codespace for running ibex?
 ---
 - Fork this repository
 - Then, open forked repo in your github
@@ -14,11 +14,11 @@ How to create a remote codespace for developing ibex?
 
 #How to write the test code and analyze through profiling?#
 - go to ** examples/sw/simple_system/hello_test/**
-- write your code in hello_test.c
+- write your code in **hello_test.c**
 - then from ibex as root: run **./run.sh**
 - Now in this folder ** examples/sw/simple_system/hello_test/** these files will be created:
--   function_table.csv: list of all functions with start address and return address obtained by parsing obj_dump
--   output.csv: list of all functions with no. of times they are called, and time taken and amount of cycles: obtained by parsing trace_core_lof in ibex folder with refernce from function_table.csv
+-  **function_table.csv**: list of all functions with start address and return address obtained by parsing obj_dump
+-   **output.csv**: list of all functions with no. of times they are called, and time taken and amount of cycles: obtained by parsing trace_core_lof in ibex folder with reference from function_table.csv
 
 ---
 
