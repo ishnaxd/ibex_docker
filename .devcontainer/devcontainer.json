@@ -1,6 +1,6 @@
 {
     "name": "My Development Environment",
-    "dockerFile": "Dockerfile",
+    "dockerFile": "ibex_image/Dockerfile",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
     }
