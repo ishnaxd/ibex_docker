@@ -24,3 +24,8 @@ How to create a remote codespace for running ibex?
 ### pls make sure to stop codespace after use as there are only limites hrs codespace can run for free!!
 
 
+files to be changed for nnom:
+simulator_control.vs present in shared->rtl (already updated in docker)
+also replace the common and nnom with v2 github in their respective repo.
+## make sure too change path in common.mk
+run.sh also (updated in docker)
